@@ -79,12 +79,13 @@ def set_streams(fh_in, fh_out):
     return bak_in, bak_out
 
 
-def run_problem(module):
-    if module in sys.modules:
-        del sys.modules[module]
-    problem = __import__(module, globals(), locals(), ['main'], 0)
+def run_problem(mod):
+    if mod in sys.modules:
+        del sys.modules[mod]
+    problem = __import__(mod, globals(), locals(), ['main'], 0)
     if 'main' in dir(problem):
         problem.main()
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
