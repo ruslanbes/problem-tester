@@ -24,6 +24,7 @@ See the folder `demo`.
 Testing your solution
 --------------
 1. Copy the `problemtester.py` to the root directory of your contest project. E.g. to `/usr/codeforces` or `/usr/googlecodejam`
+    * Optionally, copy `.gitignore` too
 2. Create a directory for a round. E.g. `cf_873` for round 873 of Codeforces
 3. Create subfolder for a problem (`a`, `b`, `c` ). It's just for convenience.
 4. Create a file `a.py` and write your solution
