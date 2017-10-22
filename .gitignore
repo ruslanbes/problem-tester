@@ -52,3 +52,9 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# out files
+a1.out
+a2.out
+a3.out
+a4.out
+a5.out
