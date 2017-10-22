@@ -6,7 +6,6 @@ Problem tester is a helper file for contests like [Google Code Jam](https://code
 Requirements
 --------------
 - Python 3+ (Tested on Python 3.6.3)
-- Windows
 - Expected source of input: STDIN ( `a = input()` )
 - Expected source of input: STDOUT
 
