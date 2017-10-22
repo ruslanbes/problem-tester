@@ -1,7 +1,7 @@
 problem-tester
 ==============
 
-Problem tester is a helper file for contents like Google Code Jam or Codeforces if you are writing your script in Python.
+Problem tester is a helper file for contests like [Google Code Jam](https://code.google.com/codejam/) or [Codeforces](http://codeforces.com/) if you are writing your script in Python.
 
 Requirements
 --------------
