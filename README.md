@@ -58,3 +58,6 @@ Solver is a "correct solution" script. Suppose you want to find bugs in your sol
 2. Problemtester will call it first to generate missing `.ok.out` files, then it will test your solution.
 
 
+Validator + Solver
+--------------
+If both are present then `.ok.out` files are generated but are ignored at the moment
