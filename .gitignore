@@ -106,11 +106,8 @@ fabric.properties
 ######################## END https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
 ######################## BEGIN problem-tester
 # out files
-a1.out
-a2.out
-a3.out
-a4.out
-a5.out
+*.out
+!*.ok.out
 
 # solver files
 demo/solver/*.out
